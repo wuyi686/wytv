@@ -129,7 +129,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://jihulab.com/moyuer/jk/-/raw/main/moyu.json");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://www.wya6.cn/tv/yd.php");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
